@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% assign organiser = site.data.organisers.[page.organiser] %}
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h3 class="post-title" itemprop="name headline"><i class="fa fa-pencil-square-o"></i> {{ page.title }}</h3>
+    <p> </p>
+    <h3 class="post-organisers-name">By <a href="{{organiser.website}}">{{organiser.name}}</a></h3>
+  </header>
+
+    <div class="post-content" itemprop="articleBody">
+
+    <p><strong><i class="fa fa-clock-o"></i> From {{ page.start_time}} to {{page.end_time }}</strong></p>
+
+    {{ content }}
+  </div>
+
+</article>
