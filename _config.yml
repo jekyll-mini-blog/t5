@@ -3,8 +3,8 @@ title: Precision Medicine Symposium
 description: > # this means to ignore newlines until "baseurl:"
   The Precision Medicine Symposium will showcase the collaborative efforts of making data sharing between labs and researchers more practical and viable. The symposium is being hosted by the Center for Entrepreneurial Leadership, at the University of Central Florida.
 
-baseurl: '/pmi'
-url: "http://opsbug.com"
+baseurl: '/t5'
+url: "http://jekyll-mini-blog.github.io"
 
 thanks: >
   This seminar would not be possible without the help from our mentors, organizers and speakers.
